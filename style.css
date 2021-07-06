@@ -37,7 +37,7 @@ h4 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .padding-top {
@@ -63,6 +63,7 @@ p {
     box-shadow: 0px 0px 15px #fba24f;
 }
 
+
 #about-me {
     background-image: url('./images/shapes/7.png');
 }
@@ -72,6 +73,8 @@ p {
     margin-top: 70px;
 
 }
+
+
 
 
 .recipies-header {
@@ -115,4 +118,18 @@ footer {
     background: #0B0D17;
     color: #fff;
     padding: 20px 0px 60px;
+}
+
+
+#menu {
+    text-align: right;
+}
+
+#menu a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: orange;
 }
