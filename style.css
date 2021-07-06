@@ -7,11 +7,11 @@ body {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    margin-top: 50px;
 }
 
 .full-area {
     width: 100%;
+    margin-top: 100px;
 }
 
 
@@ -28,6 +28,14 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
 p {
     font-size: 20px;
 }
@@ -35,6 +43,8 @@ p {
 .padding-top {
     padding-top: 130px;
 }
+
+
 
 
 .orange-color {
@@ -59,7 +69,35 @@ p {
 
 #about-me-image {
     width: 50%;
-    margin-left: 20%;
     margin-top: 70px;
 
+}
+
+
+.recipies-header {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.one-of-three-width {
+    width: 33.33333%;
+    padding-left: 5%;
+
+}
+
+.single-recipies {
+    width: 85%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 20px 0px grey;
+    padding: 30px 30px 40px 30px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+
+.single-recipies img {
+    width: 100%;
 }
