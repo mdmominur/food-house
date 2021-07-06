@@ -7,7 +7,11 @@ body {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 50px;
+}
+
+.full-area {
+    width: 100%;
 }
 
 
@@ -29,16 +33,9 @@ p {
 }
 
 .padding-top {
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
-.padding-left {
-    padding-left: 50px;
-}
-
-.padding-right {
-    padding-right: 50px;
-}
 
 .orange-color {
     color: #FBA24F;
@@ -49,9 +46,20 @@ p {
     background-image: linear-gradient(to right, orange, tomato);
     padding: 15px 40px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 40px;
     border-radius: 30px;
     font-weight: bold;
     color: white;
     box-shadow: 0px 0px 15px #fba24f;
+}
+
+#about-me {
+    background-image: url('./images/shapes/7.png');
+}
+
+#about-me-image {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 70px;
+
 }
