@@ -84,7 +84,8 @@ p {
 
 .one-of-three-width {
     width: 33.33333%;
-    padding-left: 5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
 
 }
 
@@ -100,4 +101,18 @@ p {
 
 .single-recipies img {
     width: 100%;
+}
+
+#count-down {
+    box-shadow: 0px 0px 20px 0px grey;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    background: #0B0D17;
+    color: #fff;
+    padding: 20px 0px 60px;
 }
